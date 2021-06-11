@@ -1,20 +1,21 @@
 import logo from './utils/images/logo.svg';
 import './App.css';
-import Todo from './components/Todo'
-import Cuerpo from './components/Cuerpo';
-import Footer from './components/Footer';
-import Title from './components/Title';
 import GlobalStyles from './globalStyles';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import Home from "./pages/Home/Home.jsx"
+import Contact from "./pages/Contact/Contact"
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyles/>
-      <Title/>
-      <Todo/>
-      <Cuerpo/>
-      <Footer/>
+    <Router>
+    <GlobalStyles/>
+    <Switch>
+    <Route path="/"exact component={Home}/>
+    <Route path="/contact"exact component={Contact}/>
+    </Switch>
+    </Router>
     </div>
-  );
+  )
 }
 export default App;
