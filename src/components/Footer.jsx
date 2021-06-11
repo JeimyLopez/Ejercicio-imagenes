@@ -6,7 +6,7 @@ const Footer = () => {
 	return(
 		<div className="Container_Footer">
 		<div className="ContainerText">
-		<h1>Hola este es el componente Footer</h1>
+		<h1>Patinaje Agresivo</h1>
 		<p>Esta modalidad es quizá, junto con el patinaje artístico, 
 		la más visual de todas gracias a la cantidad de saltos en el 
 		aire y piruetas que realiza el patinador. En este estilo también 

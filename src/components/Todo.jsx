@@ -6,7 +6,7 @@ const Todo = () => {
 	return(
 		<div className="Container_Cabecera">
 		<div className="ContainerText">
-		<h1>Hola este es el componente de la cabecera</h1>
+		<h1>Patinaje sobre Hielo</h1>
 		<p>Consiste en interpretar una pieza musical patinando sobre una pista de hielo y realizando piruetas, giros, saltos y acrobacias; estos elementos son valorados por unos jueces siguiendo un código de puntuación que tiene en cuenta tanto el aspecto técnico y atlético de la actuación como la interpretación artística. Aunque el patinaje con fines recreativos se practica desde hace varios siglos.</p>
 		</div>
 		<div className="ContainerImage">
