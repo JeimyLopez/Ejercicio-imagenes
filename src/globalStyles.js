@@ -1,5 +1,5 @@
 import {createGlobalStyle} from 'styled-components'
-
+import PrimaryFont from './utils/fonts/MelanieRoselynRegular.woff'
 
 const GlobalStyles= createGlobalStyle`
 .ContainerText{
@@ -9,6 +9,9 @@ const GlobalStyles= createGlobalStyle`
 	margin: 10px;
 	font-family: Impact;
 	font-size: 15px;
+}
+.ContainerText p{
+	font-family:'Melanie';
 }
 .ContainerImage{
 	display: flex;
@@ -21,6 +24,11 @@ const GlobalStyles= createGlobalStyle`
 	width:100%;
 	height:auto;
 }
+/*Fuentes*/
+@font-face {
+	font-family: 'Melanie';
+	src: local('Melanie'), url(${PrimaryFont}) format('woff');
+	font-style: normal;
+}
 `;
-
 export default GlobalStyles;
